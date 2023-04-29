@@ -31,9 +31,9 @@ Convert RDSv3 DB Files to CSV for import.
 ;Remove the # if the program should not check the DB hash with the signature file.
 #SkipAdminCheck=1
 ;Remove the # if the program should not check if the program is running in admin mode.
-#NumOfChunks=4
-;Remove the # and change the value to either 4, 6, 8, 12.  Higher numbers for larger DB files
-;or if memory problems are occuring.
+#NumOfChunks=8
+;Remove the # and change the value to either 2, 4, 6, 8, 12.  Higher numbers for larger DB files
+;or if memory problems are occuring. More chunks = longer process but saves memory. Default is 4.
 #BeepOn=0
 ;Remove the # if the program should not give an audio beep during events.
 #ExitOnEnd=1
